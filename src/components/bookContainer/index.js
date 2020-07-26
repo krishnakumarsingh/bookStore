@@ -5,7 +5,7 @@ const BookContainer = (props) => {
     return (
         <div>
             <h1>Number of Books - {props.numberOfBooks}</h1>
-            <button onClick={props.buyBook}>Buy Book</button>
+            <button onClick={props.buyBookClick}>Buy Book</button>
         </div>
     )
 }
@@ -16,7 +16,7 @@ const mapStateToProps = (state) => {
 }
 const mapDispatchToProps = (dispatch) => {
     return {
-        buyBook: function() {
+        buyBookClick: function() {
             dispatch(buyBook());
         }
     }

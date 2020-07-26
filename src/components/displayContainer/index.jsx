@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 //import axios from 'axios';
 import './index.css';
 import {Modal, Button, Form/* , Row, Col, Form */} from 'react-bootstrap';
-import Input from '../../widgets/input'
+import Input from '../../widgets/Input'
 
 class Display extends Component {
   constructor(props) {
